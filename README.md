@@ -25,7 +25,7 @@ npm install
 ### 3. Implement the Logic Gate
 Navigate to the `circom` directory and make the necessary changes to implement the given logic gate in the circom file.
 
-### 4. Configure Hardhat for Mumbai Testnet
+### 4. Configure Hardhat for Sepolia Testnet
 Edit `hardhat.config.ts` to include the Sepolia testnet configuration:
 ```ts
 import { HardhatUserConfig } from "hardhat/config";
@@ -59,7 +59,7 @@ npx hardhat circom
 ```
 
 ### 6. Deploy the Contract
-Deploy the contract to the Mumbai testnet using:
+Deploy the contract to the Sepolia testnet using:
 ```sh
 npx hardhat run scripts/deploy.ts --network sepolia
 ```
@@ -68,12 +68,12 @@ npx hardhat run scripts/deploy.ts --network sepolia
 If all steps are followed correctly, you will get a contract address where it is deployed and the verifier result should be `true`.
 
 ## Output
-- Contract Address: The address where the contract is deployed on the Mumbai testnet.
+- Contract Address: The address where the contract is deployed on the Sepolia testnet.
 - Verifier Result: `true`
 
 ## Authors
 Kankatala Hemanth 
-[21BCS4416@cuchd.in](mailto:21BCS4416@cuchd.in)
+[kankatalah1@gmail.com](mailto:kankatalah1@gmail.com)
 
 
 ---
