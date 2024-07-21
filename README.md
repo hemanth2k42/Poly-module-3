@@ -26,7 +26,7 @@ npm install
 Navigate to the `circom` directory and make the necessary changes to implement the given logic gate in the circom file.
 
 ### 4. Configure Hardhat for Mumbai Testnet
-Edit `hardhat.config.ts` to include the Mumbai testnet configuration:
+Edit `hardhat.config.ts` to include the Sepolia testnet configuration:
 ```ts
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomiclabs/hardhat-waffle";
