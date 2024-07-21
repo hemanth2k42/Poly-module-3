@@ -1,7 +1,7 @@
 # Polygon Advanced Module 3 Project: zkSNARK Circuit Implementation
 
 ## Description
-This project aims to design and deploy a new zkSNARK circuit that implements specific logical operations using the circom programming language. You will create the circuit, deploy a verifier on-chain to verify the proofs generated from this circuit, and then deploy it on the Mumbai testnet.
+This project aims to design and deploy a new zkSNARK circuit that implements specific logical operations using the circom programming language. You will create the circuit, deploy a verifier on-chain to verify the proofs generated from this circuit, and then deploy it on the Sepolia testnet.
 
 ## Prerequisites
 - Node.js and npm installed
